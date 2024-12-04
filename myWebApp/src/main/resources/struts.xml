@@ -21,6 +21,12 @@
             <result>/WEB-INF/jsp/helloWorld.jsp</result>
         </action>
 
+        <action name="helloWorld" class="MiPrimerPaginaAction">
+            <result name="input">/WEB-INF/jsp/index.jsp</result>
+            <result>/WEB-INF/jsp/helloWorld.jsp</result>
+        </action>
+
+
     </package>
 
 </struts>
